@@ -64,13 +64,27 @@ body > main article {
     margin: auto;
 }
 
+div {
+    align-content: center;
+}
+
 #main-content {
     display: flex;
-    justify-content: space-around;
+    text-align: center;
+}
+
+header {
+    text-align: center;
 }
 
 #main-content > div {
-    width: 90%;
+    width: 80%;
+}
+
+#timings {
+    display: flex;
+    margin-left: 10px;
+    text-align: center;
 }
 
 form {
@@ -81,8 +95,16 @@ h2{
     text-align: center;
 }
 
+section{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
 body > footer {
-    background-color: orange;
+    background-color: rgb(120, 241, 243);
     display: flex;
 }
 
@@ -90,8 +112,13 @@ img {
     border-radius: 50%;
 }
 
+footer {
+    text-align-last: center;
+}
+
 #footer-ul {
     list-style: none;
+    display: flex;
 }
 
 #footer-ul > div > li {
@@ -99,6 +126,6 @@ img {
 }
 
 #footer-ul > div > li > a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
